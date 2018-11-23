@@ -2,19 +2,25 @@ import {PostHttp, GetHttp} from './http.js';
 
 class Api {
     constructor() {
-        console.log(window.location);
-        if (window.location.host.startsWith("localhost")) {
-            // dev
-            // this.basicUrl = "http://mydevserver/api";
-            this.basicUrl = "http://yapi.ops.ctripcorp.com/mock/22/api";
-        } else {
-            // prod
-            this.basicUrl = "";
-        }
     }
-
+    getUrlbyPath(path) {
+      console.log(window.location);
+      let url = '';
+      let basicUrl = '';
+      let suffix = '';
+      if (window.location.host.startsWith("localhost")) {
+          // dev
+          basicUrl = "http://yapi.ops.ctripcorp.com/mock/32/api";
+      } else {
+          // prod
+          basicUrl = "https://zj-john.github.io/MyMockData/ReactMaterialComponents";
+          suffix = '.json'
+      }
+      url = basicUrl + path + suffix;
+      return url;
+    }
     getUser() {
-        const url = this.basicUrl + "/principal";
+        const url = this.getUrlbyPath("/getUser");
         return GetHttp(url);
     }
 }
