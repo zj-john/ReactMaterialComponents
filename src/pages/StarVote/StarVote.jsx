@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import StarVote from 'plugins/StarVote';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx'
 class App extends React.Component {
   doSomething = key => {
     console.log(key);

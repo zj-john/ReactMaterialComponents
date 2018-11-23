@@ -3,8 +3,8 @@ import Scrollbar from 'plugins/Scrollbar';
 import ColoredScrollbar from "./ColoredScrollbar";
 import ShadowScrollbar from "./ShadowScrollbar";
 import SpringScrollbar from "./SpringScrollbar";
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from "@components/Usage/Usage";
 
 export default class App extends Component {
   render() {

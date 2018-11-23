@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {withStyles} from "@material-ui/core/styles";
 import Carousel from 'plugins/Carousel';
 import {Home, Grade, Lock} from '@material-ui/icons';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 import image1 from "./bike.jpg";
 import image2 from "./mushroom.jpg";
 import image3 from "./burgers.jpg";

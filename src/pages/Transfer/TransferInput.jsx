@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Transfer from 'plugins/Transfer';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from 'components/Usage/Usage'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from '@components/Usage/Usage'
 
 const styles = theme => ({
   root: {

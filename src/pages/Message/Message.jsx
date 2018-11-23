@@ -8,8 +8,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Radio from 'plugins/Radio';
 import RadioGroup from 'plugins/RadioGroup';
 import Grid from 'plugins/Grid';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from 'components/Usage/Usage'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from '@components/Usage/Usage'
 const styles = theme => ({
   box: {
     marginBottom: theme.spacing.unit * 6,

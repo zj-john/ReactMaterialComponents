@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import {withStyles} from "@material-ui/core/styles";
 import BackTop from 'plugins/BackTop';
 import Codearea from 'plugins/Codearea';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx'
 
 const style = {
     height: '40px',

@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Video from 'plugins/Video';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx'
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx'
+import Usage from "@components/Usage/Usage";
 const styles = theme => ({
     root: theme.mixins.gutters({
         padding: 0,

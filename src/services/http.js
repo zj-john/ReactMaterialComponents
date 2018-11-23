@@ -5,7 +5,7 @@ export const PostHttp = (url, data) => {
           method: 'POST', // *GET, POST, PUT, DELETE, etc.
         }).then((response) => {
             let data = response.status === 200
-                ? response.data
+                ? response.json()
                 : [];
             resolve(data);
         }).catch((error) => {
@@ -19,7 +19,7 @@ export const GetHttp = (url) => {
     return new Promise(function(resolve, reject) {
         fetch(url).then((response) => {
             let data = response.status === 200
-                ? response.data
+                ? response.json()
                 : [];
             resolve(data);
         }).catch((error) => {

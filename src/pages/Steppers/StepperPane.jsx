@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import {withStyles} from "@material-ui/core/styles";
 import { StatusButton } from 'plugins/Button';
 import { StepperPane, StepPane } from 'plugins/Stepper';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from "@components/Usage/Usage";
 
 
 const styles = {
@@ -58,7 +58,7 @@ class App extends React.Component {
 
     const steps = getSteps();
 
-    return ( 
+    return (
      [<div><CodeAddr addr="Steppers/StepperPane.jsx"/>
             <Usage>
 {

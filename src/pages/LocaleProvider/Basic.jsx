@@ -4,8 +4,8 @@ import { withStyles } from '@material-ui/core/styles';
 import Button from 'plugins/Button';
 import ButtonGroup from 'plugins/ButtonGroup';
 import LocaleProvider, { LocaleConsumer } from 'plugins/LocaleProvider';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from "@components/Usage/Usage";
 
 const radio = true;
 const styles = theme => ({

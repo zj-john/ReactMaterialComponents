@@ -1,6 +1,6 @@
 import React from 'react';
 import { Upload } from 'plugins/Upload';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx'
 
 class UploadDrag extends React.Component {
   uploadFunc = data => {

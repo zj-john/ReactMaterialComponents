@@ -9,8 +9,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Select from 'plugins/Select';
 import InputLabel from 'plugins/InputLabel';
 import Filters from 'plugins/Filters';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from "@components/Usage/Usage";
 
 const style = theme => ({
   mt: {

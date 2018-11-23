@@ -15,8 +15,9 @@ import {defaultRoute} from 'routes/Routes.jsx';
 
 class Sidebar extends React.Component {
   onClick(e) {
-    const path = "/#"+ e.key;
-    window.location.href = path;
+    let root = (window.location.href).split("#/")[0];
+    let newUrl = root + "#" + e.key
+    window.location.href = newUrl;
   }
   render() {
     const { classes, open, routes, logoText, logo,  ...rest } = this.props;

@@ -6,8 +6,8 @@ import MenuBar from 'plugins/MenuBar';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormGroup from '@material-ui/core/FormGroup';
 import data from './data';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx'
-import Usage from 'components/Usage/Usage'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx'
+import Usage from '@components/Usage/Usage'
 
 const styles = theme => ({
   root: {

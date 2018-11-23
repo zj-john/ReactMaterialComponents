@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Button, {StatusButton} from 'plugins/Button';
 import AddIcon from '@material-ui/icons/Add';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from 'components/Usage/Usage';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from '@components/Usage/Usage';
 
 function handle(e) {
     console.log(e);

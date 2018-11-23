@@ -4,16 +4,16 @@ import {withStyles} from "@material-ui/core/styles";
 import {Grid, Button} from "@material-ui/core";
 import {Message} from "@material-ui/icons";
 
-import Card from "components/Card/Card.jsx";
-import CardHeader from "components/Card/CardHeader.jsx";
-import CardAvatar from "components/Card/CardAvatar.jsx";
-import CardBody from "components/Card/CardBody.jsx";
-import CardFooter from "components/Card/CardFooter.jsx";
-import CardIcon from "components/Card/CardIcon.jsx";
+import Card from "@components/Card/Card.jsx";
+import CardHeader from "@components/Card/CardHeader.jsx";
+import CardAvatar from "@components/Card/CardAvatar.jsx";
+import CardBody from "@components/Card/CardBody.jsx";
+import CardFooter from "@components/Card/CardFooter.jsx";
+import CardIcon from "@components/Card/CardIcon.jsx";
 
-import avatar from "assets/img/reactlogo.png";
+import avatar from "@assets/img/reactlogo.png";
 import CardStyle from "./CardStyle.jsx";
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 function UserProfile(props) {
     const {classes} = props;
     return (

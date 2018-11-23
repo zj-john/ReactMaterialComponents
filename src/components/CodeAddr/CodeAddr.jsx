@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function CodeAddr({ ...props }) {
   const { classes, addr } = props;
-  let code_addr = "GitHub Url" + addr;
+  let code_addr = "https://github.com/zj-john/ReactMaterialComponents/blob/master/src/pages/" + addr;
   return (
     <div>
       <a href={code_addr} target="_blank">

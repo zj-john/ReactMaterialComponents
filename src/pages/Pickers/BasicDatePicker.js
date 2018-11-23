@@ -6,8 +6,8 @@ import BasicDateTimePicker from "./BasicDateTimePicker";
 import KeyboardDatePicker from "./KeyboardDatePicker";
 import KeyboardTimePicker from "./KeyboardTimePicker";
 import Localization from "./Localization";
-import CodeAddr from "../../components/CodeAddr/CodeAddr";
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from "@components/CodeAddr/CodeAddr";
+import Usage from "@components/Usage/Usage";
 
 class BasicDatePicker extends PureComponent {
   state = {

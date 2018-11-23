@@ -11,7 +11,7 @@ import {
     RadioGroup
 } from '@material-ui/core';
 import Anchor from 'plugins/Anchor';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx'
 
 
 export const styles = theme => {

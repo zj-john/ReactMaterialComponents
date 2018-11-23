@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Codearea from 'plugins/Codearea';
-import Usage from 'components/Usage/Usage';
+import Usage from '@components/Usage/Usage';
 import {
     Grid,
     RadioGroup,
@@ -12,7 +12,7 @@ import {
     FormControlLabel,
     Radio
 } from '@material-ui/core';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 
 const styles = theme => ({
     root: theme.mixins.gutters({

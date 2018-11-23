@@ -1,8 +1,8 @@
 import React from 'react';
 import Tree from 'plugins/Tree';
 import { withStyles } from '@material-ui/core/styles';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from 'components/Usage/Usage'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from '@components/Usage/Usage'
 
 const TreeNode = Tree.TreeNode;
 class Demo extends React.Component {

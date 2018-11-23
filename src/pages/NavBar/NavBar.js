@@ -9,8 +9,8 @@ import MenuBar from "./MenuBar";
 import LightNavBar from "./LightNavBar";
 import EasyNavBar from "./EasyNavBar";
 import FlatNavBar from "./FlatNavBar";
-import CodeAddr from "../../components/CodeAddr/CodeAddr";
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from "@components/CodeAddr/CodeAddr";
+import Usage from "@components/Usage/Usage";
 
 const styles = theme => ({
     root: {

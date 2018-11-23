@@ -10,7 +10,7 @@ import Grid from '@material-ui/core/Grid';
 import Confirm from "./Confirm";
 import ModalActions from "./ModalActions";
 import {Modal2} from "../../plugins/Modal/index";
-import CodeAddr from "../../components/CodeAddr/CodeAddr";
+import CodeAddr from "@components/CodeAddr/CodeAddr";
 
 const styles = theme => ({
   box: {

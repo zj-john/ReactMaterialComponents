@@ -14,8 +14,8 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import CheckboxGroup from 'plugins/CheckboxGroup';
 import Checkbox from '@material-ui/core/Checkbox';
 import Button from 'plugins/Button';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from 'components/Usage/Usage';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from '@components/Usage/Usage';
 
 const style = theme => ({
   form: {

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import CascadeSelect from 'plugins/CascadeSelect';
 import FilterSelect from "./FilterSelect";
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
+import Usage from "@components/Usage/Usage";
 class App extends Component {
     constructor(props) {
         super(props);

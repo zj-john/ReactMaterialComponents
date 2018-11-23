@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import Pagination from 'plugins/Pagination';
 import { withStyles } from '@material-ui/core/styles';
 import Divider from '@material-ui/core/Divider';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx'
-import Usage from 'components/Usage/Usage'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx'
+import Usage from '@components/Usage/Usage'
 const styles = {
   root: {
     flexGrow: 1,

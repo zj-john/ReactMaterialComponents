@@ -10,7 +10,7 @@ import {
     RadioGroup
 } from '@material-ui/core';
 import {withStyles} from "@material-ui/core/styles";
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 /*
  * Left & Right sided rectangle styles that can be customized.
  * *

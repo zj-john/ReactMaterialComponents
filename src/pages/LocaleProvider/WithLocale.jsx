@@ -8,7 +8,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Radio, { RadioButton } from 'plugins/Radio';
 import RadioGroup from 'plugins/RadioGroup';
 import Grid from '@material-ui/core/Grid';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 
 const styles = theme => ({
   box: {

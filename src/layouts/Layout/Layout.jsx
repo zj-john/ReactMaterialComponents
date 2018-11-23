@@ -9,7 +9,7 @@ import Header from "layouts/Header/Header.jsx";
 import Sidebar from "layouts/Sidebar/Sidebar.jsx";
 
 import LayoutStyle from "./LayoutStyle.jsx"
-import logo from "assets/img/reactlogo.png";
+import logo from "@assets/img/reactlogo.png";
 
 const switchRoutes = (
   <Switch>

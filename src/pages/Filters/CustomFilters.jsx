@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import Filters from 'plugins/Filters';
 import { emphasize, fade, darken } from '@material-ui/core/styles/colorManipulator';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 
 const style = theme => ({
   mt: {

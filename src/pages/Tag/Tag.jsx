@@ -1,7 +1,7 @@
 import React from 'react';
 import {withStyles} from "@material-ui/core/styles";
 import Tag from 'plugins/Tag';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 const styles = () => ({
   blockDiv: {
     marginTop: '10px',
@@ -77,7 +77,7 @@ class App extends React.Component {
     afterClose = (key) => {
         console.log(key);
     }
-    
+
     render() {
         return (
             <div>
@@ -132,7 +132,7 @@ class App extends React.Component {
             secondaryLight标签
           </Tag>
 
-                 
+
             </div>
         );
     }

@@ -5,7 +5,7 @@ import { Upload } from 'plugins/Upload';
 import Button, { StatusButton } from 'plugins/Button';
 import FileUpload from '@material-ui/icons/CloudUpload';
 import classNames from 'classnames';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx'
 const styles = theme => ({
   rightIcon: {
     marginLeft: theme.spacing.unit,

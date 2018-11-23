@@ -7,7 +7,7 @@ import BreadcrumbItem from 'plugins/BreadcrumbItem';
 import {Home, Grade, Lock} from '@material-ui/icons';
 
 import {matchRoutes} from 'react-router-config';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 
 class App extends React.Component {
     constructor(props) {

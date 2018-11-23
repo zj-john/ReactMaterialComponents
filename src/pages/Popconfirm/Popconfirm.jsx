@@ -10,8 +10,8 @@ import Grid from '@material-ui/core/Grid';
 import Button from 'plugins/Button';
 import Popover from '@material-ui/core/Popover';
 import Popconfirm from 'plugins/Popconfirm';
-import CodeAddr from "../../components/CodeAddr/CodeAddr";
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from "@components/CodeAddr/CodeAddr";
+import Usage from "@components/Usage/Usage";
 
 const styles = theme => ({
   box: {

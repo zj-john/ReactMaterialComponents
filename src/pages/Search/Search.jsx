@@ -3,7 +3,7 @@ import {withStyles} from "@material-ui/core/styles";
 import Search from 'plugins/Search';
 import Icon from '@material-ui/core/Icon';
 import IconButton from 'plugins/IconButton';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 
 
 const style = theme => {

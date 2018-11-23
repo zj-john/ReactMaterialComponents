@@ -3,7 +3,7 @@ import Progress from 'plugins/Progress';
 import {withStyles} from "@material-ui/core/styles";
 import Button from 'plugins/Button';
 import LinearProgress from '@material-ui/core/LinearProgress';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 
 const styles = {
   root: {

@@ -7,8 +7,8 @@ import DisabledMention from "./DisabledMention";
 import FixNumMention from "./FixNumMention";
 import IconMention from "./IconMention";
 import Paper from "@material-ui/core/Paper";
-import CodeAddr from "../../components/CodeAddr/CodeAddr";
-import Usage from "../../components/Usage/Usage";
+import CodeAddr from "@components/CodeAddr/CodeAddr";
+import Usage from "@components/Usage/Usage";
 const styles = theme => ({
   root: {
     flexGrow: 1,

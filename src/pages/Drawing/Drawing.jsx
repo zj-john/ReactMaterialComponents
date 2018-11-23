@@ -14,7 +14,7 @@ import generalize from './images/generalize.gif';
 import realize from './images/realize.gif';
 import link from './images/link.gif';
 import import1 from './images/import.gif';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx';
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx';
 
 const Style = {
   buttonWrap: {

@@ -1,15 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {createHashHistory} from "history";
+import {createHashHistory, createBrowserHistory } from "history";
 import {Router, Route, Switch} from "react-router-dom";
-import "assets/css/global.css";
+import "@assets/css/global.css";
 import indexRoutes from "routes/index.jsx";
 import {MuiThemeProvider} from '@material-ui/core/styles';
 import theme from "layouts/Theme/Theme.jsx";
 // userInfo
 import {UserContext} from 'UserContext.js';
 
-import Api from './services/Api.js';
+import Api from '@services/Api.js';
 const ApiService = new Api();
 //由于Server端未适配，修改为了hash history
 const hist = createHashHistory();

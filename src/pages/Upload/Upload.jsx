@@ -4,7 +4,7 @@ import UploadBasic from './UploadBasic.jsx';
 import UploadDrag from './UploadDrag.jsx';
 import UploadImg from './UploadImg.jsx';
 import UploadManual from './UploadManual.jsx';
-import Usage from "../../components/Usage/Usage";
+import Usage from "@components/Usage/Usage";
 
 class App extends React.Component {
     render() {

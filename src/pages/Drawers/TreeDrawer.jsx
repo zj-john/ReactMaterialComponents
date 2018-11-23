@@ -13,8 +13,8 @@ import NavBar from 'plugins/NavBar';
 import Grid from 'plugins/Grid';
 import common from 'plugins/colors/common';
 import data from './data';
-import CodeAddr from 'components/CodeAddr/CodeAddr.jsx'
-import Usage from 'components/Usage/Usage'
+import CodeAddr from '@components/CodeAddr/CodeAddr.jsx'
+import Usage from '@components/Usage/Usage'
 const drawerWidth = 240;
 const defaultItemKeysMap = {
   name: 'name',
