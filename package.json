@@ -46,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zj-john/ReactMaterialUISeed.git"
+    "url": "git+https://github.com/zj-john/ReactMaterialComponents.git"
   },
   "keywords": [
     "react",
@@ -56,9 +56,9 @@
   "author": "zj_john",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zj-john/ReactMaterialUISeed/issues"
+    "url": "https://github.com/zj-john/ReactMaterialComponents.git/issues"
   },
-  "homepage": "",
+  "homepage" : "https://zj-john.github.io/ReactMaterialComponents/build/",
   "devDependencies": {
     "react-app-rewired": "^1.6.2",
     "react-scripts": "^2.1.1"
