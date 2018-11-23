@@ -1,0 +1,72 @@
+{
+  "name": "react-material-admin",
+  "version": "1.0.0",
+  "description": "react-material-admin",
+  "main": "index.js",
+  "dependencies": {
+    "@material-ui/core": "^3.0.2",
+    "@material-ui/icons": "^3.0.1",
+    "classnames": "2.2.6",
+    "cross-spawn": "^6.0.5",
+    "css-animation": "^1.4.1",
+    "date-fns": "^1.29.0",
+    "deepmerge": "^2.2.1",
+    "dnd-core": "^4.0.5",
+    "echarts-for-react": "^1.4.4",
+    "formsy-react": "^1.1.4",
+    "hoist-non-react-statics": "^3.0.1",
+    "immutability-helper": "^2.8.1",
+    "invariant": "^2.2.4",
+    "isexe": "^2.0.0",
+    "lodash": "^4.17.10",
+    "material-ui-pickers": "^1.0.0-rc.14",
+    "moment": "^2.22.2",
+    "prismjs": "^1.15.0",
+    "pubsub-js": "^1.7.0",
+    "rc-menu": "^7.4.8",
+    "rc-tree": "^1.14.6",
+    "re-resizable": "^4.9.0",
+    "react": "16.4.0",
+    "react-addons-update": "^15.6.2",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dnd": "^5.0.0",
+    "react-dnd-html5-backend": "^5.0.1",
+    "react-dom": "16.4.0",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "4.3.1",
+    "rebound": "^0.1.0",
+    "recompose": "^0.30.0",
+    "video.js": "^7.2.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zj-john/ReactMaterialUISeed.git"
+  },
+  "keywords": [
+    "react",
+    "material",
+    "component"
+  ],
+  "author": "zj_john",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zj-john/ReactMaterialUISeed/issues"
+  },
+  "homepage": "",
+  "devDependencies": {
+    "react-app-rewired": "^1.6.2",
+    "react-scripts": "^2.1.1"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
