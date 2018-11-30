@@ -4,7 +4,6 @@ class Api {
     constructor() {
     }
     getUrlbyPath(path) {
-      console.log(window.location);
       let url = '';
       let basicUrl = '';
       let suffix = '';

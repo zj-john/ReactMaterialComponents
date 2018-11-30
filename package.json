@@ -58,8 +58,9 @@
   "bugs": {
     "url": "https://github.com/zj-john/ReactMaterialComponents.git/issues"
   },
-  "homepage" : "https://zj-john.github.io/ReactMaterialComponents/build/",
+  "homepage": "https://zj-john.github.io/ReactMaterialComponents/build/",
   "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
     "react-app-rewired": "^1.6.2",
     "react-scripts": "^2.1.1"
   },
