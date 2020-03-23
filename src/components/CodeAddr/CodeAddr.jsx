@@ -6,7 +6,7 @@ function CodeAddr({ ...props }) {
   let code_addr = "https://github.com/zj-john/ReactMaterialComponents/blob/master/src/pages/" + addr;
   return (
     <div>
-      <a href={code_addr} target="_blank">
+      <a href={code_addr} target="_blank" style={{textDecoration: 'underline'}}>
         <h2>代码地址</h2>
       </a>
       <hr />
