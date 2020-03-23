@@ -4,6 +4,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormGroup from '@material-ui/core/FormGroup';
 import { withStyles } from '@material-ui/core/styles';
 import ButtonBase from 'plugins/Button';
+import avatar from "@assets/img/reactlogo.png";
 import { FlatNavBar } from 'plugins/NavBar';
 const { Item: FlatNavItem, SubNavBar: FlatNavSub, ItemGroup: FlatNavGroup } = FlatNavBar;
 const styles = theme => ({
@@ -25,7 +26,7 @@ const styles = theme => ({
 });
 function Logo(props) {
   const { className } = props;
-  return <img className={className} height="100%" src="/static/logo.png" alt="" />;
+  return <img className={className} height="100%" src={avatar} alt="" />;
 }
 function RightTools(props) {
   const { classes } = props;

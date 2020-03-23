@@ -3,11 +3,11 @@ const path = require('path');
 
 module.exports = {
     webpack: function (config, env) {
-      config = injectBabelPlugin(['import', {
-          libraryName: '@material-ui/core',
-          libraryDirectory: 'es',
-          camel2DashComponentName: false
-      }], config);
+    //   config = injectBabelPlugin(['import', {
+    //       libraryName: '@material-ui/core',
+    //       libraryDirectory: 'es',
+    //       camel2DashComponentName: false
+    //   }], config);
 
       const alias = {
           '@pages': path.resolve(__dirname, 'src/pages'),
